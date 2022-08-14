@@ -14,7 +14,7 @@ name: "workflow"
 jobs:
   ci:
     name: "Integration"
-    runs-on: "ubuntu-latest"
+    runs-on: "nginx:alpine"
     steps:
       - name: "Checkout Code"
         uses: "actions/checkout@v2"
